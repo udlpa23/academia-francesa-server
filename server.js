@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-const RECIPIENT_EMAIL = 'josemanuelpruebas1981@gmail.com';
+const RECIPIENT_EMAIL = 'jramirez@maspalomas.com';
 const APP_URL = 'https://udlpa23.github.io/academia-francesa';
 
 async function sendLessonReminder() {
